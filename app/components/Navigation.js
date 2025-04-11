@@ -16,14 +16,14 @@ export default function Navigation() {
           <div className='px-[8vw] md:flex'>
             <span className='text-2xl'>CJ</span>
           </div>
-          <ul className='hidden md:flex items-center gap-[3vw] text-1xl py-8 px-[1vw]'>
+          <ul className='hidden md:flex items-center gap-[4vw] text-1xl py-8 px-[1vw]'>
             <li className='hover:text-gray-700 mx-2'> About </li>
             <li className='hover:text-gray-700 mx-2'> Projects </li>
             <li className='hover:text-gray-700 mx-2'> Technologies </li>
             <li className='hover:text-gray-700 mx-2'> Reach Me Out </li>
           </ul>
         </div>
-        <div className='hidden md:flex gap-[1.5vw] items-center y-6 pr-[15%]'>
+        <div className='hidden md:flex gap-[2vw] items-center y-6 pr-[12%]'>
           <BsGithub size={24} />
           <BsFacebook size={24} />
           <BsLinkedin size={24} />
@@ -32,6 +32,8 @@ export default function Navigation() {
           <Hamburger toggled={isOpen} toggle={setOpen} size={28} />
         </div>
       </nav>
+
+      <div></div>
     </div>
   )
 }
