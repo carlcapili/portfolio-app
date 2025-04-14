@@ -43,19 +43,29 @@ export default function Navigation() {
             size={28}
           />
         </div>
-        {isOpen ? (
-          <div className='fixed md:hidden justify-center right-0 top-0 translate-x-0 z-2 ease-out duration-450 bg-red-300'>
-            <div className='justify-center size-30 h-screen w-[50vw] py-30 px-20 [&>*]:hover:text-gray-700 [&>*]:mx-2 [&>*]:text-2xl'>
-              <li> About </li>
-              <li> Projects </li>
-              <li> Technologies </li>
-              <li> Contact </li>
-            </div>
+
+        <div
+          className={
+            isOpen
+              ? 'fixed md:hidden justify-center right-0 top-0 translate-x-0 z-2 ease-in-out duration-300 bg-white'
+              : 'fixed md:hidden justify-center right-0 top-0 translate-x-100 z-2 ease-in-out duration-200 bg-white'
+          }
+        >
+          <div className='justify-center size-30 h-screen w-[50vw] py-30 px-20 [&>*]:hover:text-gray-700 [&>*]:mx-2 [&>*]:text-2xl'>
+            <li> About </li>
+            <li> Projects </li>
+            <li> Technologies </li>
+            <li> Contact </li>
           </div>
-        ) : (
-          <div className='fixed md:hidden justify-center right-0 top-0 translate-x-100 z-2 ease-in duration-600 bg-yellow-700'></div>
-        )}
+        </div>
       </nav>
+      <div
+        className={
+          isOpen
+            ? 'bg-slate-900 absolute left-0 right-0 top-0 bottom-0 opacity-30'
+            : 'bg-slate-900 absolute left-0 right-0 top-0 bottom-0 opacity-0'
+        }
+      ></div>
     </div>
   )
 }
