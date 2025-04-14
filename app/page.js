@@ -1,5 +1,6 @@
 import Navigation from './components/Navigation'
 import localfont from 'next/font/local'
+import Try from './components/try'
 
 const Georgia = localfont({
   src: './fonts/Georgia.ttf',
