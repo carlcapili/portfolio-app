@@ -1,19 +1,19 @@
+import Image from 'next/image'
 export default function Hero() {
   return (
-    <div className='flex justify-center container mx-auto w-full h-screen outline-solid py-100rem px-[10vw]'>
-      <div className='flex outline-solid'>
-        <div>
-          <h1 className='text-3xl just'>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam
-            beatae quidem eligendi minima atque sequi illo quas, dolores earum
-            illum!
-          </h1>
-        </div>
-        <div>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet
-            consequatur, aspernatur magnam doloremque repudiandae corrupti!
-          </p>
+    <div className='container mx-auto items-left translate-y-3  h-screen'>
+      <div className='flex space-between py-25'>
+        <h2 className='text-5xl mx-auto h-[500px] w-[800px] p-1'>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium,
+          perferendis!
+        </h2>
+        <div className='flex mx-auto justify-center'>
+          <Image
+            src='/images/technoblade.webp'
+            alt='technoblade'
+            width={400}
+            height={500}
+          />
         </div>
       </div>
     </div>
