@@ -15,7 +15,7 @@ export default function Navigation() {
   }
   return (
     <div>
-      <nav className='flex justify-between mx-auto items-center h-18 w-full relative z-1 bg-[#ffffff] shadow-xs outline-hidden'>
+      <nav className='flex justify-between mx-auto items-center h-18 w-full relative z-1 bg-[#ffffff] shadow-xs'>
         <div className='flex items-center'>
           <div className='px-[10vw] md:flex'>
             <span className='text-2xl'>CJ</span>
@@ -55,7 +55,7 @@ export default function Navigation() {
           className={
             isOpen
               ? 'fixed md:hidden justify-center right-0 top-0 translate-x-0 z-2 ease-in-out duration-300 bg-[#f6f6f6] shadow-2xl'
-              : 'fixed md:hidden justify-center right-0 top-0 translate-x-130 z-2 ease-in-out duration-300 bg-[#f6f6f6]'
+              : 'fixed md:hidden justify-center right-0 top-0 translate-x-170 z-2 ease-in-out duration-300 bg-[#f6f6f6]'
           }
         >
           <div className='flex flex-col justify-center items-center -translate-y-15 space-y-20 size-30 h-screen w-[80vw] text-2xl outline-hidden'>
