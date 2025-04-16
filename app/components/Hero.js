@@ -1,13 +1,11 @@
 import Image from 'next/image'
 export default function Hero() {
   return (
-    <div className=' container w-full h-screen mx-auto items-center'>
+    <div className='container w-full h-screen mx-auto items-center'>
       <div className='flex flex-col outline-solid items-center'>
         <div className='md:translate-x-[15vw] md:translate-y-[13vw]'>
           <h1 className='md:text-5xl text-3xl'>Ciao&#33; Im Ceejay</h1>
-          <p className='md:text-3xl text-1xl pt-12'>
-            I Love to learn new things
-          </p>
+          <p className='md:text-3xl text-1xl'>I Love to learn new things</p>
           <div className='md:w-[300px] md:h-[300px] w-[200px] h-[200px]'></div>
         </div>
         <Image
