@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className={Georgia.className}>
       <Navigation />
-      <Hero />
+      <Hero className='hero' />
     </div>
   )
 }

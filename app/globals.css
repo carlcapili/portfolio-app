@@ -3,3 +3,9 @@
 body {
   background-color: #f6f6f6;
 }
+
+.nav {
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+}

@@ -15,7 +15,7 @@ export default function Navigation() {
   }
   return (
     <div>
-      <nav className='flex justify-between mx-auto items-center h-18 w-full relative z-1 bg-[#ffffff] shadow-xs'>
+      <nav className='nav flex justify-between mx-auto items-center h-18 w-full relative z-1 bg-[#ffffff] shadow-xs'>
         <div className='flex items-center'>
           <div className='px-[10vw] md:flex'>
             <span className='text-2xl'>CJ</span>
